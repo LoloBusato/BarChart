@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+svg {
+  background-color: gray;
+  border: 1px solid white;
+}
+.bar:hover {
+  fill: red;
+}
+#tooltip {
+  background-color: green;
+  opacity: 0.9;
+  width: 100px;
+  text-align: center;
+}
